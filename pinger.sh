@@ -23,7 +23,6 @@
 # SOFTWARE.
 #
 #
-# Program name: herokuapp_pinger.sh
 # Repository https://github.com/sharadcodes/herokuapp_pinger.git
 
 
