@@ -46,12 +46,11 @@ herokuapp_pinger
 	
 3. Add the hosts to the `hosts_list.txt` file inside `herokuapp_pinger/script_data` folder.
     
-    Every host specified in the `hosts_list.txt` file will have its own log file.
-    
-    **Every host should be on a new line**
+    **Every host url should be on a new line**
     
     **NOTE: There should be a new empty line after the last host otherwise last entry in the file will not be read**
-    **ANY NUMBER OF HOSTS CAN BE SPECIFIED IN THE `hosts_list.txt` file**
+    
+    **ALSO ANY NUMBER OF HOSTS CAN BE SPECIFIED IN THE `hosts_list.txt` file**
 
 4. Setup crontab like this: 
    ```bash
