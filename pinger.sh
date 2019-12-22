@@ -40,7 +40,7 @@ do
 	day=`date +%A`
 	# saving log to the file
 	echo "$d    $t    $day    $status" >> herokuapp_pinger/logs/${myHost}.log	
-	echo "$d, $t, $day, $status" >> herokuapp_pinger/csv_logs/${myHost}.log	
+	echo "$d, $t, $day, $status" >> herokuapp_pinger/csv_logs/${myHost}.csv	
 	
 	
 # 	IMPORTANT :  CHANGE DUMMY_USER_NAME with your username
