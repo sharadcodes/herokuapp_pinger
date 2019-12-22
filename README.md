@@ -33,12 +33,12 @@ herokuapp_pinger
 	/home/${USER}/herokuapp_pinger/
 	```
 	
-2. Open the script `pinger.sh` inside `herokuapp_pinger` folder with any text editor and replace the DUMMY_USER_NAME on the line 47 with your account name.
+2. Open the script `pinger.sh` inside `herokuapp_pinger` folder with any text editor and replace the DUMMY_USER_NAME on the line 46 with your account name.
 
 2. Go inside the `herokuapp_pinger`	 folder and run
 
 	```
-	chmod +x pinger.sh && mkdir logs && makdir csv_logs
+	chmod +x pinger.sh && mkdir logs && mkdir csv_logs
 	```
 	These two folders will be used to store logs.
 	`csv_logs` folder will store logs in the form of CSV files and the `logs` folder will store them with `.log` extension
