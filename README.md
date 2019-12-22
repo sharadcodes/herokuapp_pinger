@@ -58,6 +58,8 @@ A script to ping the heroku app dyno and prevent it  from sleeping, with the not
 /home/${USER}/herokuapp_pinger/csv_logs/
 ```
 
+---
+
 ## SETUP FINISHED, ENJOY !
 
 #### If in trouble, Join the new Discord Channel
