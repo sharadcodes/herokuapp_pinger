@@ -33,12 +33,15 @@ A script to ping the heroku app dyno and prevent it  from sleeping, with the not
 	These two folders will be used to store logs.
 	`csv_logs` folder will store logs in the form of CSV files and the `logs` folder will store them with `.log` extension
 	
-	**Every host specified in the `hosts_list.txt` file will have its own log file**
 	
 3. Add the hosts to the `hosts_list.txt` file inside `herokuapp_pinger/script_data` folder.
-    Every host should be on a new line.
+    
+    Every host specified in the `hosts_list.txt` file will have its own log file.
+    
+    **Every host should be on a new line**
     
     **NOTE: There should be a new empty line after the last host otherwise last entry in the file will not be read**
+    **ANY NUMBER OF HOSTS CAN BE SPECIFIED IN THE `hosts_list.txt` file**
 
 4. Setup crontab like this: 
    ```bash
@@ -46,7 +49,7 @@ A script to ping the heroku app dyno and prevent it  from sleeping, with the not
    ```
    **You should change the crontab schedule according to your needs as \* \* \* \* \* will run the script every minute**
    
-## Your app logs will be inside 
+## Your logs will be inside 
 ```bash
 /home/${USER}/herokuapp_pinger/logs/
 ```
