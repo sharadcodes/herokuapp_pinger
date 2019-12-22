@@ -48,7 +48,9 @@ A script to ping the heroku app dyno and prevent it  from sleeping, with the not
    * * * * * /home/your_user_name/herokuapp_pinger/pinger.sh
    ```
    **You should change the crontab schedule according to your needs as \* \* \* \* \* will run the script every minute**
-   
+
+---
+
 ## Your logs will be inside 
 ```bash
 /home/${USER}/herokuapp_pinger/logs/
