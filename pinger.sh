@@ -44,7 +44,7 @@ do
 	
 	
 # 	IMPORTANT :  CHANGE DUMMY_USER_NAME with your username
-	export HOME=/home/dojo
+	export HOME=/home/DUMMY_USER_NAME
 	
 	
 #   Dont modify these configs
