@@ -1,2 +1,1 @@
-yt2mp4.herokuapp.com
-ddevchat.herokuapp.com
+dummy_app_link.herokuapp.com
