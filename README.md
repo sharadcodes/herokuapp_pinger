@@ -15,6 +15,16 @@ A script to ping the heroku app dyno and prevent it  from sleeping, with the not
 
 ### First of all clone the repository or download it
 
+Extract the archive file and rename the folder from 
+```bash
+herokuapp_pinger-master
+```
+to
+```bash
+herokuapp_pinger
+```
+
+#### Now follow the steps
 
 1. Place the repository folder inside the `home/${USER}/` directory.
 
