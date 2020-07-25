@@ -73,6 +73,4 @@ herokuapp_pinger
 
 ## SETUP FINISHED, ENJOY !
 
-#### If in trouble, Join the new Discord Channel
-
-Link: https://discord.gg/P7BG7he
+#### If in trouble, contact me at https://codingindian.codes/contact
