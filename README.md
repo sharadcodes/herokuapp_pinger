@@ -72,5 +72,3 @@ herokuapp_pinger
 ---
 
 ## SETUP FINISHED, ENJOY !
-
-#### If in trouble, contact me at https://codingindian.codes/contact
